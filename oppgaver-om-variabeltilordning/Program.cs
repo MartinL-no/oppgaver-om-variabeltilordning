@@ -15,8 +15,6 @@ namespace oppgaver_om_variabeltilordning
 
         static void Main(string[] args)
         {
-            
-
             Console.Write("Oppgave 2: int a (1) + decimal b (2.99m) = ");
             Console.WriteLine(OppgaveTo());
 
