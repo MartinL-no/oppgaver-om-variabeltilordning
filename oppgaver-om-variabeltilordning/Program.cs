@@ -14,9 +14,22 @@ namespace oppgaver_om_variabeltilordning
         bool OppgaveEnBool = true;
 
         static void Main(string[] args)
-            {
-                Console.WriteLine("Hello World!");
-            }
+        {
+            
+
+            Console.Write("Oppgave 2: int a (1) + decimal b (2.99m) = ");
+            Console.WriteLine(OppgaveTo());
+
+            Console.WriteLine("Oppgave 2: the variable 'sum' must be decimal");
+        }
+        static decimal OppgaveTo()
+        {
+            int a = 1;
+            decimal b = 2.99m;
+            decimal sum = a + b;
+
+            return sum;
+        }
     }
 }
 
